@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Min nettside</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Min interaktive nettside</h1>
+
+    <h2>Lys og mørk modus</h2>
+    <button onclick="darkMode()">Mørk modus</button>
+    <button onclick="lightMode()">Lys modus</button>
+
+    <h2>Humor</h2>
+    <button onclick="happy()">Glad</button>
+    <button onclick="sad()">Trist</button>
+    <button onclick="angry()">Sint</button>
+    
+    <h2>Tilfeldig sitat</h2>
+    <p id="sitat">Trykk på knappen</p>
+    <button onclick="sitat()">Nytt sitat</button>
+
+    <h2>Poeng</h2>
+
+    <h3>Spiller 1</h3>
+    <p id="score1">0</p>
+    <button onclick="plus1()">+1</button>
+    <button onclick="minus1()">-1</button>
+    <button onclick="reset1()">Nullstill</button>
+
+    <h3>Spiller 2</h3>
+    <p id="score2">0</p>
+    <button onclick="plus2()">+1</button>
+    <button onclick="minus2()">-1</button>
+    <button onclick="reset2()">Nullstill</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
